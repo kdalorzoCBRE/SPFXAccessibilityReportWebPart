@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-test-client-side-solution",
+    "id": "6de42c35-bb7e-4865-b221-6aadc54ba763",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Karla Dalorzo",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-test description"
+      },
+      "longDescription": {
+        "default": "spfx-test description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-test Feature",
+        "description": "The feature that activates elements of the spfx-test solution.",
+        "id": "514224d0-1256-4d0e-b18b-3c1e76118a67",
+        "version": "1.0.0.0"
+      }
+    ],
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Mail.Send"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-test.sppkg"
+  }
+}
